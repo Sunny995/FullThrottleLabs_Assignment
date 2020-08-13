@@ -1,0 +1,92 @@
+{
+	"members": [
+		{
+			"id": "W012A3CDE",
+			"real_name": "Egon Spengler",
+			"tz": "America/Los_Angeles",
+			"activity_periods": [
+				{
+					"day": "Aug 12 2020",
+					"start_time": "1:29 PM",
+					"end_time": "1:54 PM"
+				},
+				{
+					"day": "Mar 1 2020",
+					"start_time": "9:11 AM",
+					"end_time": "2:00 PM"
+				},
+				{
+					"day": "Mar 16 2020",
+					"start_time": "5:33 PM",
+					"end_time": "8:02 PM"
+				}
+			]
+		},
+		{
+			"id": "W07QCRPA4",
+			"real_name": "Glinda Southgood",
+			"tz": "Asia/Kolkata",
+			"activity_periods": [
+				{
+					"day": "Feb 1 2020",
+					"start_time": "1:29 PM",
+					"end_time": "1:54 PM"
+				},
+				{
+					"day": "Mar 1 2020",
+					"start_time": "9:11 AM",
+					"end_time": "2:00 PM"
+				},
+				{
+					"day": "Mar 16 2020",
+					"start_time": "5:33 PM",
+					"end_time": "8:02 PM"
+				}
+			]
+		},
+		{
+			"id": "W012A3CDE",
+			"real_name": "Obi Wan Kenobi",
+			"tz": "America/Dallas",
+			"activity_periods": [
+				{
+					"day": "Aug 12 2020",
+					"start_time": "1:29 PM",
+					"end_time": "1:54 PM"
+				},
+				{
+					"day": "Mar 1 2020",
+					"start_time": "9:11 AM",
+					"end_time": "2:00 PM"
+				},
+				{
+					"day": "Mar 16 2020",
+					"start_time": "5:33 PM",
+					"end_time": "8:02 PM"
+				}
+			]
+		},
+		{
+			"id": "W07QCRPA4",
+			"real_name": "Darth Vader",
+			"tz": "Asia/Beijing",
+			"activity_periods": [
+				{
+					"day": "Feb 1 2020",
+					"start_time": "1:29 PM",
+					"end_time": "1:54 PM"
+				},
+				{
+					"day": "Mar 1 2020",
+					"start_time": "9:11 AM",
+					"end_time": "2:00 PM"
+				},
+				{
+					"day": "Mar 16 2020",
+					"start_time": "5:33 PM",
+					"end_time": "8:02 PM"
+				}
+			]
+		}
+	]
+}
