@@ -1,0 +1,4 @@
+<div [ngClass] ="'home_main'">
+<app-users-dash-board *ngIf="showActivity == false" (showActivitiesEvent)="showUserActivations($event)"></app-users-dash-board>
+<app-user-activity *ngIf="showActivity == true"  [selectedUser]="selectedUser"></app-user-activity>
+</div>

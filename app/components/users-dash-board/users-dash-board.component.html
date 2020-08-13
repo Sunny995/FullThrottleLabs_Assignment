@@ -1,0 +1,4 @@
+<div [ngClass] ="'dashboard_main'">
+  <h1>Users</h1>
+    <span [ngClass] ="'dashboard_span'" *ngFor='let user of Users' (click)="showActivations(user)">{{user.real_name}}</span>
+</div>

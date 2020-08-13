@@ -1,0 +1,33 @@
+<link href="https://cdn.syncfusion.com/ej2/ej2-base/styles/material.css" rel="stylesheet" />
+<link href="https://cdn.syncfusion.com/ej2/ej2-buttons/styles/material.css" rel="stylesheet" />
+<link href="https://cdn.syncfusion.com/ej2/ej2-popups/styles/material.css" rel="stylesheet" />
+<link href="https://cdn.syncfusion.com/ej2/ej2-calendars/styles/material.css" rel="stylesheet" />
+
+<div [ngClass] ="'userActivities'" *ngIf="selectedUserInfo.activity_periods.length > 0">
+
+<table>
+    <thead>
+        <tr><h1>User Activities:</h1></tr>
+       <tr>
+          <th>DAY</th>
+          <th>Start Time</th>
+          <th>End Time</th>
+       </tr>
+    </thead>
+    <tbody>
+       <tr *ngFor="let periods of selectedUserInfo.activity_periods">
+          <th>{{periods.day | date}}</th>
+          <td>{{periods.start_time}}</td>
+          <td>{{periods.end_time}}</td>
+       </tr>
+    </tbody>
+ </table>
+</div>
+
+
+<div [ngClass] ="'userActivities'" *ngIf="selectedUserInfo.activity_periods.length == 0">
+    <strong>User was not active.</strong>
+</div>
+
+
+<app-calendar [ngClass] ="'calendar'" (selectedDate)="showActivations($event)"></app-calendar>
