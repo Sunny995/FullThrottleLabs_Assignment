@@ -18,7 +18,8 @@ https://medium.com/@websleengur/mock-data-for-angular-5-applications-with-json-s
 
 Components :
 
-This application consist mainly of four Components : home, users-dash-board , user-activity , calendar. 
+This application consist mainly of four Components :
+home, users-dash-board , user-activity , calendar. 
 The path for the components is "app/components".
 
 The users-dash-board consist of the UI for showing all the users. Clicking on a specific user , opens up all his activities .
